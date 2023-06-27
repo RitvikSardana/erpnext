@@ -10,6 +10,7 @@ from frappe.model.document import Document
 from frappe.utils import cint
 
 
+
 class SellingSettings(Document):
 	def on_update(self):
 		self.toggle_hide_tax_id()
