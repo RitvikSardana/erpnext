@@ -280,6 +280,8 @@ class StatusUpdater(Document):
 			self.global_qty_allowance,
 			self.global_amount_allowance,
 			qty_or_amount,
+
+			
 		)
 
 		role_allowed_to_over_deliver_receive = frappe.db.get_single_value(
